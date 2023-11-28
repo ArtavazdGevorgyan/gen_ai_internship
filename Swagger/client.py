@@ -7,7 +7,7 @@ def create_class():
     scrapped_json = scrap.get_json()
 
     client = OpenAI(
-        api_key="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")
+        api_key="YOUR_API_KEY")
 
     # You can customize the prompt to suit your needs
     prompt = f"Generate a Python class to handle API calls based on the Swagger JSON:\n{
